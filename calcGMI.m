@@ -1,7 +1,7 @@
 function [GMI,MIperBitPosition]=calcGMI(X,Y,labeling)
-%calcMI calculates the sum of bitwise memoryless mutual informations using circularly symmetric Gaussian noise statistics.
-% This quantity is also known as generalized mutual information (GMI). In
-% contrast to the symbolwise MI, it is an achievable rate for receivers with binary decoding and no iterations between demapper and decoder.
+% calcGMI function calculates the sum of bitwise memoryless mutual informations using circularly symmetric Gaussian noise statistics.
+% This quantity is also known as generalized mutual information (GMI). In contrast to the symbolwise MI, 
+% it is an achievable rate for receivers with binary decoding and no iterations between demapper and decoder.
 % The current version of this script works only for uniformly distributed square QAM.
 %
 % Input:
